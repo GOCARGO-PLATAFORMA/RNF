@@ -1,0 +1,34 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'RNFAPP' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging', '~> 5.11.0'
+  # Pods for RNFAPP
+
+  target 'RNFAPP-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'RNFAPPTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'RNFAPP-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for RNFAPP-tvOS
+
+  #target 'RNFAPP-tvOSTests' do
+  #  inherit! :search_paths
+    # Pods for testing
+  #end
+
+end
